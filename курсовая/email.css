@@ -1,0 +1,130 @@
+header{
+    background-color: rgba(0, 70, 255, 0.17);
+    height: 109px;
+    width: 1465px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.logo{
+    width: 119px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 11px;
+    
+}
+
+.contacts{
+    overflow: hidden;
+
+}
+
+.contacts_one{
+    float: right;
+    margin-right: 11px;
+    margin-top: 27px;
+    font-size: 12px;
+    color: #002EA6;
+}
+
+.contacts_two{
+    float: right;
+    margin-top: 30px;
+    margin-right: 51px;
+    font-size: 12px;
+    color: #002EA6;
+}
+
+.phone{
+    width: 15px;
+    height: 15px;
+    
+}
+
+.mail{
+    width: 15px;
+    height: 15px;
+}
+
+.address{
+    width: 15px;
+    height: 15px;
+}
+
+.watch{
+    width: 15px;
+    height: 15px;
+    padding-top: 2px;
+}
+
+.menu-main {
+    list-style: none;
+    margin: 40px 0 5px;
+    padding: 25px 0 5px;
+    text-align: center;
+    background: white;
+  }
+  .menu-main li {display: inline-block;}
+  .menu-main li:after {
+    content: "|";
+    color: #002EA6;
+    display: inline-block;
+    vertical-align:top;
+  }
+  .menu-main li:last-child:after {content: none;}
+  .menu-main a {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 34px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+  }
+  .menu-main a, .menu-main a:visited {color: #002EA6;}
+  .menu-main a.current, .menu-main a:hover{color: #31416B;}
+  .menu-main a:before,
+  .menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    left: 50%;
+    background:  #31416B;
+    transition: .8s;
+  }
+  .menu-main a:hover:before, .menu-main .current:before {left: 0;}
+  .menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+  @media (max-width: 550px) {
+  .menu-main {padding-top: 0;}
+  .menu-main li {display: block;}
+  .menu-main li:after {content: none;}
+  .menu-main a {
+    padding: 25px 0 20px; 
+    margin: 0 30px;
+  }
+  }
+
+
+  
+.services_title {
+    font-size: 64px;
+    color: #002EA6;
+    font-weight:bolder;
+    margin-top: 140px;
+    margin-left: 30px;
+}
+
+.services_title_item {
+    font-size: 32px;
+    color: #40434D;
+    font-weight:bolder;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+

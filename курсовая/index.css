@@ -1,0 +1,396 @@
+header{
+    background-color: rgba(0, 70, 255, 0.17);
+    height: 109px;
+    width: 1465px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.logo{
+    width: 119px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 11px;
+    
+}
+
+.contacts{
+    overflow: hidden;
+
+}
+
+.contacts_one{
+    float: right;
+    margin-right: 11px;
+    margin-top: 27px;
+    font-size: 12px;
+    color: #002EA6;
+}
+
+.contacts_two{
+    float: right;
+    margin-top: 30px;
+    margin-right: 51px;
+    font-size: 12px;
+    color: #002EA6;
+}
+
+.phone{
+    width: 15px;
+    height: 15px;
+    
+}
+
+.mail{
+    width: 15px;
+    height: 15px;
+}
+
+.address{
+    width: 15px;
+    height: 15px;
+}
+
+.watch{
+    width: 15px;
+    height: 15px;
+    padding-top: 2px;
+}
+
+.menu-main {
+    list-style: none;
+    margin: 40px 0 5px;
+    padding: 25px 0 5px;
+    text-align: center;
+    background: white;
+  }
+  .menu-main li {display: inline-block;}
+  .menu-main li:after {
+    content: "|";
+    color: #002EA6;
+    display: inline-block;
+    vertical-align:top;
+  }
+  .menu-main li:last-child:after {content: none;}
+  .menu-main a {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 34px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+  }
+  .menu-main a, .menu-main a:visited {color: #002EA6;}
+  .menu-main a.current, .menu-main a:hover{color: #31416B;}
+  .menu-main a:before,
+  .menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    left: 50%;
+    background:  #31416B;
+    transition: .8s;
+  }
+  .menu-main a:hover:before, .menu-main .current:before {left: 0;}
+  .menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+  @media (max-width: 550px) {
+  .menu-main {padding-top: 0;}
+  .menu-main li {display: block;}
+  .menu-main li:after {content: none;}
+  .menu-main a {
+    padding: 25px 0 20px; 
+    margin: 0 30px;
+  }
+  }
+
+
+.container{
+    background-image: url(/img/fon.png);
+    width: 1465px;
+    height: 704px;
+    margin-top: 164px;
+    margin-left: 30px;
+    overflow: hidden;
+
+}  
+
+.background{
+    margin-top: 229px;
+    margin-left: 187px;
+    background-image: url(/Rectangle\ 6\ \(10\).png);
+    width: 633px;
+    height: 245px;
+}
+
+.item{
+  font-size: 32px;
+  padding-top: 50px;
+  margin-left: 60px;
+  width: 337px;
+  color: white;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.button{
+    width: 264px;
+    height: 49px;
+    background-color: white;
+    color: #002EA6;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 30px ;
+    margin-left: 60px ;
+}
+
+.information .item{
+    font-size: 32px;
+    letter-spacing: 0;
+    margin-left: 30px;
+    
+}
+
+.information .item a{
+    text-decoration: none;
+}
+
+
+
+.information  .item a:visited {color: #002EA6;}
+.information .item a:hover{
+    color: rgba(32, 66, 154, 0.76) ;
+    
+}
+
+.information_item_img{
+    float: left;
+    margin-left: 30px;
+}
+
+
+.item_title{
+    font-size: 64px;
+    color: #002EA6;
+    font-weight:bolder;
+    letter-spacing: 0.1em;
+}
+
+.item_text{
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    margin-top: 60px;
+    font-weight:bold;
+}
+
+.advantages{
+    white-space: normal;	
+	display: inline-block;
+	vertical-align: top;
+    width: 38px;
+}
+
+.advantages_img{
+    margin-top: 60px;
+}
+
+.advantages_items{
+    white-space: normal;	
+	display: inline-block;
+	vertical-align: top;
+    margin-left: 110px;
+}
+
+.advantages_item{
+    margin-top: 50px;
+    color: #40434D;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    font-weight:bold;
+}
+
+.advantages_items :nth-child(4){
+   padding-top: 20px;
+}
+
+.advantages_button{
+    width: 264px;
+    height: 49px;
+    background-color: #20429A;
+    color: white;
+    border: #20429A;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 90px ;
+}
+
+.information_img{
+    float: right;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+.information_img_img{
+    height: 900px;
+}
+
+.services{
+    margin-top: 1030px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.services_title{
+    font-size: 64px;
+    color: #002EA6;
+    font-weight:bolder;
+    letter-spacing: 0.1em;
+}
+
+.services_title a{
+    text-decoration: none;
+}
+
+
+
+.services_title a:visited {color: #002EA6;}
+.services_title a:hover{
+    color: rgba(32, 66, 154, 0.76) ;
+    
+}
+
+
+
+.services_bblock{
+    float: left; /*Задаем обтекание*/  
+    font-size: 40px; 
+    background: rgba(0, 70, 255, 0.17); 
+    color: #20429A; 
+    margin-top: 60px; 
+    width: 460px; /*Фиксируем ширину блока*/ 
+    margin-right: 24px; 
+    height: 316px;
+    border-radius: 50px;
+}
+
+.block_img{
+    widows: 117px;
+    height: 117px;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+
+.block_item{
+    font-size: 32px;
+    color: #002EA6;
+    font-weight:bold;
+    letter-spacing: 0.1em;
+    margin-left: 55px;
+    margin-top: 40px;
+}
+
+.application{
+    background-color: rgba(0, 70, 255, 0.17);
+    width: 1465px;
+    margin-top: 170px;
+    margin-left: 30px;
+    border-radius: 50px;
+    white-space: normal;	
+	display: inline-block;
+	vertical-align: top;
+}
+
+.application_img{
+    background-image: url(/img/333333333333\ 1.png);
+    width: 397px;
+    height: 538px;
+   margin-left: 300px;
+}
+
+.application_text{
+    float: right;
+   margin-right: 200px;
+   margin-top: 200px;
+   font-size: 40px;
+   color: #002EA6;
+   font-weight:bold;
+}
+
+.application_button{
+    width: 437px;
+    height: 95px;
+    background-color: #20429A;
+    color: white;
+    border: #20429A;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 90px ;
+    padding-right: 10px;
+    
+}
+
+footer{
+    background-color: rgba(0, 70, 255, 0.17);
+    height: 203px;
+    width: 1465px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+
+.logo_footer{
+    width: 140px;
+    height: 83px;
+    margin-top: 30px;
+    float: left;
+    margin-left: 60px;
+    
+}
+
+.contacts{
+    overflow: hidden;
+
+}
+
+.contacts_reight{
+    float: left;
+    margin-left: 200px;
+    margin-top: 27px;
+    font-size: 20px;
+    color: #002EA6;
+    font-weight: bold;
+
+}
+
+.contacts_left{
+    float: right;
+    margin-top: 30px;
+    margin-right: 150px;
+    font-size: 20px;
+    color: #002EA6;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
